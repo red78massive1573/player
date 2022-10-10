@@ -1,0 +1,50 @@
+button {
+       cursor: pointer;
+}
+
+.button{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width:100%;
+}
+
+#source{
+  position: static;
+}
+
+#source:focus{
+  position: absolute;
+  left: 0;
+  min-width: 10px;
+  max-width: 100%;
+}
+
+#loader{
+  font-size: 100px;
+  bottom: 0;
+  position: absolute;
+  display:none;
+}
+
+#consent{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 5%;
+  display: flex;
+  align-items: center;
+  background-color: #487ed4;
+  font-size: 30px;
+}
+
+#consentbutton{
+  position: absolute;
+  right: 1%;
+  top: -5;
+  font-size: 20px;
+  border: 0;
+  background-color: transparent;
+}

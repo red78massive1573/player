@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script type="text/javascript" src="./files/main.js"></script>
+    <link rel="stylesheet" href="./files/main.css">
+  </head>
+  <body onload="load()">
+    <button class="button" onclick="play('source', 'loader', 'dolphin-censor')" title="Play Dolphin Censor sound"><img src="./files/button.jpg"></button>
+    <div tabindex="0" id="source" oninput="load()" contentEditable>https://www.myinstants.com/media/sounds/spongebob-dolphin-censor.mp3</div>
+    <loader id='loader'>loading</loader>
+    <div id="consent" onclick="this.style.display='none';">
+      <text style="position:absolute;left:1%;">Fullscreen is recomended. Press tab to change audio url. Not mobile friendly.</text>
+      <button id="consentbutton">x</button>
+    </div>
+  </body>
+</html>
